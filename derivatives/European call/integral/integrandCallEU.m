@@ -12,7 +12,7 @@ function y = integrandCallEU(x,S0,K,r,T,sigma)
 %      T : Expiration time
 %  sigma : Volatility
 %
-% EJEMPLO:
+% EXAMPLE:
 %  S0 = 100; K = 90; r = 0.03; T = 2; sigma = 0.4;
 %  discountFactor = exp(-r*T);
 %  R = 10; tol = 1e-6;
