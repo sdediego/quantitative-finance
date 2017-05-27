@@ -17,6 +17,7 @@ function [delta, error] = deltaCallEU_MC(M,S0,K,r,T,sigma)
 %  S0 = 100; K = 90; r = 0.03; T = 2; sigma = 0.4;
 %  M = 1e6;
 %  [delta, error] = deltaCallEU_MC(M,S0,K,r,T,sigma)
+%  blsdelta(S0,K,r,T,sigma)
 %  
 discountFactor = exp(-r*T);
 X = randn(M,1);
