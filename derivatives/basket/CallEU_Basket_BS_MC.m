@@ -36,6 +36,3 @@ for i = 1:length(rho)
     price(i) = discountFactor*mean(payoff);
     error(i) = discountFactor*std(payoff)/sqrt(M);
 end
-
-
-
