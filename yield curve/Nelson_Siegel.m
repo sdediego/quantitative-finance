@@ -4,6 +4,12 @@ function  r = Nelson_Siegel(t,b0,b1,b2,tau)
 % SINTAXIS:  
 %  r = Nelson_Siegel(t,b0,b1,b2,tau)
 %
+%    t : Time
+%  tau : Decay factor
+%   b0 : Long run levels of interest rates
+%   b1 : Short-term component of interest rates
+%   b2 : Medium-term component of interestrates
+%
 % EXAMPLE: 
 %  tau = 0.5; b0 = 4; b1 = -2; b2 = -6;
 %  nPlot = 1000;  tPlot = linspace(0,3,nPlot);
