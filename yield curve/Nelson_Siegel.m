@@ -18,3 +18,4 @@ function  r = Nelson_Siegel(t,b0,b1,b2,tau)
 %  xlabel('t (years)'); ylabel('interest rate(%)')
 %  
 r = b0 + b1*exp(-t/tau) + b2*(t/tau).*exp(-t/tau);
+end
