@@ -22,3 +22,4 @@ function r = Svensson(t,b0,b1,b2,tau1,b3,tau2)
 t1 = t/tau1;
 t2 = t/tau2;
 r = b0 + b1*exp(-t1) + b2*t1.*exp(-t1) + b3*t2.*exp(-t2);
+end
