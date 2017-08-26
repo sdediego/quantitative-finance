@@ -22,3 +22,4 @@ sigma = sigma.*sqrt((2*N.^2 + 3*N +1)./(6*N.^2));
 d1 = (log(S0./K)+(r+sigma.^2/2).*T)./(sigma.*sqrt(T)); 
 d0 = d1 - sigma.*sqrt(T);
 price = exp(-r0.*T)*(S0.*exp(r.*T)*normcdf(d1)-K.*normcdf(d0)); 
+end
