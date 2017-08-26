@@ -26,4 +26,4 @@ payoff = max(meanGeom-K,0);
 discountFactor = exp(-r*T);
 price = discountFactor*mean(payoff);
 error = discountFactor*std(payoff)/sqrt(M);
-       
+end
