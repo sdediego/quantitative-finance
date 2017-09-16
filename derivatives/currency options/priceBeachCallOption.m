@@ -24,5 +24,5 @@ norm_sigma = sqrt(sum(abs(sigmaS).^2));
 d1 = (log(S0f/Kf) + (rf + 0.5*norm_sigma^2)*T)/(norm_sigma*sqrt(T));
 d0 = d1 - norm_sigma*sqrt(T);
 price_quantocall = X*(S0f*exp((rf-rd-prod_sigma)*T)*normcdf(d1) - Kf*exp(-rd*T)*normcdf(d0));
-price = X*S0f*KX + price_quantocall;
+price = X*S0f + price_quantocall;
 end
